@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Http.Headers;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Dsw2025Tpi.Domain.Entities;
+
+public class OrderItem : EntityBase
+{
+    public Guid ProductId { get; }
+    public Guid OrderId { get; }
+    public int Quantity { get; set; }
+    public decimal UnitPrice { get; set; }
+    public decimal SubTotal { get; set; }
+    public Product Product { get; set; } = null!;
+    public OrderItem() { }
+    public OrderItem(int _quantity, decimal _unitPrice, Guid _productId) 
+    { 
+        Quantity = _quantity;
+        UnitPrice = _unitPrice;
+        SubTotal = UnitPrice * Quantity;
+        ProductId = _productId;
+    }
+
+}
