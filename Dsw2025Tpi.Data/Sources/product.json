@@ -1,0 +1,82 @@
+﻿[
+    {
+        "sku": "P011",
+        "internalCode": "INT011",
+        "name": "Tablet 10 pulgadas",
+        "description": "Tablet con pantalla táctil y 64 GB de almacenamiento",
+        "unitPrice": 450.0,
+        "quantity": 25
+    },
+    {
+        "sku": "P012",
+        "internalCode": "INT012",
+        "name": "Cargador USB-C",
+        "description": "Cargador rápido de 20W con puerto USB-C",
+        "unitPrice": 18.99,
+        "quantity": 150
+    },
+    {
+        "sku": "P013",
+        "internalCode": "INT013",
+        "name": "Smartwatch",
+        "description": "Reloj inteligente con monitor de frecuencia cardíaca",
+        "unitPrice": 299.99,
+        "quantity": 45
+    },
+    {
+        "sku": "P014",
+        "internalCode": "INT014",
+        "name": "Lámpara LED de escritorio",
+        "description": "Lámpara con luz regulable y puerto USB",
+        "unitPrice": 32.5,
+        "quantity": 78
+    },
+    {
+        "sku": "P015",
+        "internalCode": "INT015",
+        "name": "Impresora multifunción",
+        "description": "Impresora con escáner y Wi-Fi",
+        "unitPrice": 680.0,
+        "quantity": 30
+    },
+    {
+        "sku": "YERBA001",
+        "internalCode": "INT006",
+        "name": "Yerba Mate 1kg",
+        "description": "Yerba mate elaborada con palo, paquete de 1kg",
+        "unitPrice": 1900,
+        "quantity": 85
+    },
+    {
+        "sku": "AZUCAR001",
+        "internalCode": "INT007",
+        "name": "Azúcar Blanca 1kg",
+        "description": "Azúcar refinada en paquete de 1kg",
+        "unitPrice": 850,
+        "quantity": 120
+    },
+    {
+        "sku": "SAL001",
+        "internalCode": "INT008",
+        "name": "Sal Fina 500g",
+        "description": "Sal de mesa fina en envase de 500 gramos",
+        "unitPrice": 400,
+        "quantity": 200
+    },
+    {
+        "sku": "JABON001",
+        "internalCode": "INT009",
+        "name": "Jabón de Tocador",
+        "description": "Jabón perfumado en barra de 125g",
+        "unitPrice": 300,
+        "quantity": 180
+    },
+    {
+        "sku": "LAVANDINA001",
+        "internalCode": "INT010",
+        "name": "Lavandina 1L",
+        "description": "Desinfectante líquido en botella de 1 litro",
+        "unitPrice": 600,
+        "quantity": 90
+    }
+]
